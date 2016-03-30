@@ -2,14 +2,14 @@
   src: https://git.openstack.org/openstack/openstack-ansible-apt_package_pinning
   scm: git
   version: master
-- name: galera_client
-  src: https://git.openstack.org/openstack/openstack-ansible-galera_client
-  scm: git
-  version: master
-- name: galera_server
-  src: https://git.openstack.org/openstack/openstack-ansible-galera_server
-  scm: git
-  version: master
+#- name: galera_client
+#  src: https://git.openstack.org/openstack/openstack-ansible-galera_client
+#  scm: git
+#  version: master
+#- name: galera_server
+#  src: https://git.openstack.org/openstack/openstack-ansible-galera_server
+#  scm: git
+#  version: master
 - name: keepalived
   src: https://github.com/evrardjp/ansible-keepalived
   version: '1.3'
@@ -41,22 +41,22 @@
   src: https://git.openstack.org/openstack/openstack-ansible-openstack_openrc
   scm: git
   version: master
-- name: os_aodh
-  src: https://git.openstack.org/openstack/openstack-ansible-os_aodh
-  scm: git
-  version: master
-- name: os_ceilometer
-  src: https://git.openstack.org/openstack/openstack-ansible-os_ceilometer
-  scm: git
-  version: master
-- name: os_cinder
-  src: https://git.openstack.org/openstack/openstack-ansible-os_cinder
-  scm: git
-  version: master
-- name: os_glance
-  src: https://git.openstack.org/openstack/openstack-ansible-os_glance
-  scm: git
-  version: master
+#- name: os_aodh
+#  src: https://git.openstack.org/openstack/openstack-ansible-os_aodh
+#  scm: git
+#  version: master
+#- name: os_ceilometer
+#  src: https://git.openstack.org/openstack/openstack-ansible-os_ceilometer
+#  scm: git
+#  version: master
+#- name: os_cinder
+#  src: https://git.openstack.org/openstack/openstack-ansible-os_cinder
+#  scm: git
+#  version: master
+#- name: os_glance
+#  src: https://git.openstack.org/openstack/openstack-ansible-os_glance
+#  scm: git
+#  version: master
 - name: os_heat
   src: https://git.openstack.org/openstack/openstack-ansible-os_heat
   scm: git
@@ -73,18 +73,18 @@
   src: https://git.openstack.org/openstack/openstack-ansible-os_nova
   scm: git
   version: master
-- name: os_swift
-  src: https://git.openstack.org/openstack/openstack-ansible-os_swift
-  scm: git
-  version: master
-- name: os_swift_sync
-  src: https://git.openstack.org/openstack/openstack-ansible-os_swift_sync
-  scm: git
-  version: master
-- name: os_tempest
-  src: https://git.openstack.org/openstack/openstack-ansible-os_tempest
-  scm: git
-  version: master
+#- name: os_swift
+#  src: https://git.openstack.org/openstack/openstack-ansible-os_swift
+#  scm: git
+#  version: master
+#- name: os_swift_sync
+#  src: https://git.openstack.org/openstack/openstack-ansible-os_swift_sync
+#  scm: git
+#  version: master
+#- name: os_tempest
+#  src: https://git.openstack.org/openstack/openstack-ansible-os_tempest
+#  scm: git
+#  version: master
 - name: pip_lock_down
   src: https://git.openstack.org/openstack/openstack-ansible-pip_lock_down
   scm: git
